@@ -6,11 +6,11 @@
  */
 int main(void)
 {
-unsigned char nm;
-for (nm = '0'; nm <= '9'; nm++)
+int nm;
+for (nm = 48; nm <= 57; nm++)
 {
 	putchar(nm);
 }
 putchar('\n');
 return (0);
-}:º
+}
