@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
-* main - function to print
+* jack_bauer - prints every minute of the day of Jack Bauer
 *
-* Return: Always 0 (Success)
+* Return: void
 */
 void jack_bauer(void)
 {
