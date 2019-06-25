@@ -1,9 +1,9 @@
 #include "holberton.h"
 /**
-* main - function to print
-*
-* Return: Always 0 (Success)
-*/
+ * print_alphabet - prints the alphabet,in lowercase, followed by a new line.
+ *
+ * return:void
+ */
 void print_alphabet(void)
 {
 char l;
