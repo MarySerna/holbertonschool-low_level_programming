@@ -1,8 +1,11 @@
 #include "holberton.h"
+#include <stdio.h>
 /**
-* int add - adds two integers and returns the result
+* add - adds two integers and returns the result
+* @i:integer
+* @j:integer
 *
-* Return: Always 0 (Success)
+* Return: i+j
 */
 int add(int i, int j)
 {
