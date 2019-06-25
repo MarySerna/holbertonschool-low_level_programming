@@ -1,9 +1,10 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
-* main - function to print
+* _abs- computes the absolute value of an integer
+* @d:integer
 *
-* Return: Always 0 (Success)
+* Return: 0
 */
 int _abs(int d)
 {
