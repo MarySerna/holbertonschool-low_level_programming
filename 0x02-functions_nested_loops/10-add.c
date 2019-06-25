@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
-* main - function to print
+* int add - adds two integers and returns the result
 *
 * Return: Always 0 (Success)
 */
