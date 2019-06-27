@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * print_square - function that checks for uppercase character.
+ * print_square - prints a square
  * @size: integer
  *
  * Return: void
