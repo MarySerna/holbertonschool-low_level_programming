@@ -4,19 +4,14 @@
  * @n :integer
  *
  * Return: void
- */
+*/
 void print_line(int n)
 {
-int l = 0;
-if (n > 0)
-{
-while (l <= n)
+int l;
+
+for (l = 1; l <= n; l++)
 {
 _putchar('_');
-l++;
 }
-_putchar('\n');
-}
-else
 _putchar('\n');
 }
