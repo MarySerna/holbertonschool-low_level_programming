@@ -1,9 +1,9 @@
 #include "holberton.h"
 /**
-*_strlen - calculate the length of a string.
-*@s: integer
+* _strlen - calculate the length of a string.
+* @s: integer
 *
-*return :i
+* return :i
 */
 int _strlen(char *s)
 {
