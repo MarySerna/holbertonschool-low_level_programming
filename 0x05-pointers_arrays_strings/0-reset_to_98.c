@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
 *reset_to_98 - Write a function that takes a pointer
-*@n-integer
+*@n: integer
 *
 *return : void
 */
