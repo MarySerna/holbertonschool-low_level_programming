@@ -1,18 +1,15 @@
 #include "holberton.h"
 /**
-* _strlen - calculate the length of a string.
-* @s: integer
-*
-* return :i
-*/
+ * _strlen - check the code for Holberton School students.
+ * @s: declaration of *s and paramters for the function _strlen
+ * Return: Always 0.
+ */
 int _strlen(char *s)
 {
-int i;
-i = 0;
-while (*s != '\0')
+int c;
+
+for (c = 0; s[c] != 0; c++)
 {
-i++;
-s++;
 }
-return (i);
+return (c);
 }
