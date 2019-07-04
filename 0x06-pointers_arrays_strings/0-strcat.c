@@ -10,9 +10,9 @@
 
 char *_strcat(char *dest, char *src)
 {
-int a = 0;
+int s = 0;
 int i = 0;
-while (dest[a] != '\0')
+while (dest[s] != '\0')
 {
 s++;
 }
