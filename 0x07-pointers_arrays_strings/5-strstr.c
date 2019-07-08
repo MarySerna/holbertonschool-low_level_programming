@@ -1,7 +1,7 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
-* _strstr - function that locates a substring.
+* _strstr - function finds the first occurrence of the substring.
 * @haystack: character
 * @needle: character
 *
