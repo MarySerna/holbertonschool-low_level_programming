@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include "holberton.h"
 /**
-* _strchr -  function that locates a character in a string
+* *_strchr - function that locates a character in a string
 * @s: character
-* @c: chsrscter
+* @c: character
 *
-* Return (s +1)*
+* Return: a pointer to dest
 */
 char *_strchr(char *s, char c)
 {
