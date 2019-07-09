@@ -1,24 +1,33 @@
-#include <stdio.h>
 #include "holberton.h"
+#include <stdio.h>
+
 /**
-* _strspn - function that gets the length of a prefix substring
-* @s: character
-* @accept: character
+* _strspn - returns number of bytes in the initial sengment s
+* @s: for the count action
+* @accept: parameter for char
 *
-* Return (i)
+* Return: number of bytes;
 */
+
 unsigned int _strspn(char *s, char *accept)
 {
-unsigned int i, j;
-i = 0;
-while (s[i] != '\0')
+unsigned int num;
+int in, g, t;
+
+in = 0;
+while (s[in] != '\0')
 {
-j = 0;
-while (accept[j] != '\0' && s[i] != accept[j])
-j++;
-if (accept[j] == '\0')
-return (i);
-i++;
+t = 0;
+for (g = 0; accept[g] != '\0'; g++)
+{
+if (s[in] == accept[g])
+t = 1;
 }
-return (i);
+g = 0;
+if (t == 0)
+break;
+num++;
+in++;
+}
+return (in);
 }
