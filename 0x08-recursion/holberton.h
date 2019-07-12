@@ -12,7 +12,7 @@ int root(int rn, int i);
 int is_prime_number(int n);
 int prime_prime(int n, int i, int limit);
 int is_palindrome(char *s);
-int palin_check(char *a, int length)
+int char_check(char *a, char *b);
 
 #endif
 
