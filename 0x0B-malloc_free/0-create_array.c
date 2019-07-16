@@ -5,7 +5,7 @@
 * create_array - function that creates an array of chars
 * @c: argument for characater
 * @size: for size if array
-* @array_1: character
+*
 * Return: 0
 */
 char *create_array(unsigned int size, char c)
