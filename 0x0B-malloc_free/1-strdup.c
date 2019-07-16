@@ -2,32 +2,30 @@
 #include <stdlib.h>
 #include "holberton.h"
 /**
-* _strdup - function that returns a pointer to a newly allocated space in memory
-* @leng: integer
-* @j: integer
-* @n: character
+* _strdup - function that returns a pointer
+* @str: argument for array
 *
 * Return: 0
 */
 char *_strdup(char *str)
 {
-char *n;
-unsigned int leng, j;
+char *array_1;
+int i, leng;
 
-if (str == NULL)
-return (NULL);
-for (leng = 0; str[leng] != '\0'; leng++);
-leng++;
-if (leng < 1)
-return (NULL);
-n = malloc(leng * sizeof(char));
-if (n == NULL)
+array_1 = malloc(sizeof(str));
+i = leng = 0;
+while (str[i] != '\0')
 {
-free(n);
-return (NULL);
+leng++;
+i++;
 }
-for (j = 0; j < leng; j++)
-n[j] = str[j];
-n[j] = '\0';
-return (n);
+if (array_1 == NULL)
+return (NULL);
+i = 0;
+while (str[i] != '\0')
+{
+array_1[i] = str[i];
+i++;
+}
+return (array_1);
 }
