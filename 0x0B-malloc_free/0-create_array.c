@@ -14,12 +14,12 @@ char *array_1;
 unsigned int i = 0;
 
 array_1 = malloc(size * sizeof(c));
-while (i < size)
-{
 if (array_1 == NULL)
 {
 return (NULL);
 }
+while (i <= size)
+{
 array_1[i] = c;
 i++;
 }
