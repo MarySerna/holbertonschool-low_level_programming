@@ -3,8 +3,8 @@
 #include "holberton.h"
 /**
 * create_array - function that creates an array of chars
-* @c: argument for characater
-* @size: for size if array
+* @size: parametro integer type
+* @c: parametro character type
 *
 * Return: 0
 */
@@ -12,7 +12,10 @@ char *create_array(unsigned int size, char c)
 {
 char *array_1;
 unsigned int i = 0;
-
+if (size == 0)
+{
+return (NULL);
+}
 array_1 = malloc(size * sizeof(c));
 if (array_1 == NULL)
 {
