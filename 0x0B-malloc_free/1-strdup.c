@@ -22,10 +22,16 @@ return (c);
 *
 * Return: 0
 */
+
 char *_strdup(char *str)
 {
 char *s;
 int i;
+
+if (str ==  NULL)
+{
+return (NULL);
+}
 s = malloc((_strlen(str) + 1) * sizeof(char));
 for (i = 0; i < _strlen(str); i++)
 {
