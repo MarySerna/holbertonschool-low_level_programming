@@ -33,6 +33,10 @@ if (str ==  NULL)
 return (NULL);
 }
 s = malloc((_strlen(str) + 1) * sizeof(char));
+if (s == NULL)
+{
+return (NULL);
+}
 for (i = 0; i < _strlen(str); i++)
 {
 s[i] = str[i];
