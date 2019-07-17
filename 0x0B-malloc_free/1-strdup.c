@@ -37,6 +37,6 @@ for (i = 0; i < _strlen(str); i++)
 {
 s[i] = str[i];
 }
-s[i + 1] = '\0';
+s[i] = '\0';
 return (s);
 }
