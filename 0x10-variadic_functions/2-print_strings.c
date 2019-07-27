@@ -1,13 +1,10 @@
-#include <stdlib.h>
-#include <stdio.h>
 #include <stdarg.h>
+#include <stdio.h>
 #include "variadic_functions.h"
 /**
 * print_strings - prints strings
 * @separator: string to be printed between strings
 * @n:number of integers passed
-*
-* Return : void
 *
 */
 void print_strings(const char *separator, const unsigned int n, ...)
