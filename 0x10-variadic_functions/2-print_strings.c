@@ -16,9 +16,6 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	unsigned int a;
 	char *stri;
 
-	if (n == 0)
-		return;
-
 	va_start(names, n);
 
 for (a = 0 ; a < n; a++)
