@@ -1,5 +1,4 @@
 #include "lists.h"
-#include <stdio.h>
 /**
 * add_nodeint - adds a node at the end of a list
 * @head: pointer to the start of the list
