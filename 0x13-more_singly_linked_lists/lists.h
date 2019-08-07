@@ -1,5 +1,5 @@
-#ifndef _LISTS_H
-#define _LISTS_H
+#ifndef _lists_h_
+#define _lists_h_
 
 #include <stdlib.h>
 
@@ -18,6 +18,7 @@ typedef struct listint_s
 } listint_t;
 /*Functions*/
 int _putchar(char c);
+int _strlen(char *s);
 size_t print_listint(const listint_t *h);
 size_t listint_len(const listint_t *h);
 listint_t *add_nodeint(listint_t **head, const int n);
