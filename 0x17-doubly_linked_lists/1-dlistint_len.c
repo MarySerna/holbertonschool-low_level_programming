@@ -6,8 +6,9 @@
  * dlistint_len - prints all the elements of the list.
  * @h: pointer
  * 
- *Return: 1
+ *Return: The elements' number of the list
  */
+
 size_t dlistint_len(const dlistint_t *h)
 {
 	int l = 0;
