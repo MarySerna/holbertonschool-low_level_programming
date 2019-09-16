@@ -3,7 +3,7 @@
 #include <string.h>
 #include "lists.h"
 /**
- * Add_dnodeint - Adds a new node at the end of a double linked list.
+ * add_dnodeint_end - Adds a new node at the end of a double linked list.
  * @head: Double pointer that point to the list
  * @n: Value to add to the list
  *
