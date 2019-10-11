@@ -1,5 +1,5 @@
 #ifndef HASH_TABLE
-#define VARIADIC_FUNCTIONS_H
+#define HASH_TABLE
 
 /**
  * struct hash_node_s - Node of a hash table
