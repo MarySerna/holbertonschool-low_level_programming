@@ -8,14 +8,14 @@
  */
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
-	unsigned long int index = 0;
+	unsigned long int idx = 0;
 	hash_node_t *element = NULL, *list = NULL;
 
 	if (ht == NULL || key == NULL || value == NULL)
 		return (0);
 
-	index = key_index((unsigned char *) key, ht->size);
-	list = ht->array[index];
+	idx = key_index((unsigned char *) key, ht->size);
+	list = ht->array[idx];
 
 	while (list)
 	{
@@ -45,8 +45,8 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		free(element);
 		return (0);
 	}
-	element->next = ht->array[index];
-	ht->array[index] = element;
+	element->next = ht->array[idx];
+	ht->array[idx] = element;
 	return (1);
 }
 
