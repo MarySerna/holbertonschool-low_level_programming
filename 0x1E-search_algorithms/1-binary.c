@@ -4,7 +4,6 @@
 *@array: array to print
 *@left: starting array
 *@rigth: ending array
-*Return: void
 */
 void print_array(int *array, int left, int rigth)
 {
