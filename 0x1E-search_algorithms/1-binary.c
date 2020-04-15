@@ -3,8 +3,8 @@
 *print_array - print array
 *@array: array to print
 *@left: starting array
-*@right: ending array
-*
+*@rigth: ending array
+*Return: void
 */
 void print_array(int *array, int left, int rigth)
 {
@@ -29,18 +29,18 @@ void print_array(int *array, int left, int rigth)
 */
 int binary_search(int *array, size_t size, int value)
 {
-	size_t left, m, right;
+	size_t left, m, rigth;
 
 	left = 0;
-	right = size - 1;
-	while (left <= right)
+	rigth = size - 1;
+	while (left <= rigth)
 	{
-		print_array(array, left, right);
-		m = (left + right) / 2;
+		print_array(array, left, rigth);
+		m = (left + rigth) / 2;
 		if (array[m] < value)
 			(left = m + 1);
 		else if (array[m] > value)
-			right = m - 1;
+			rigth = m - 1;
 		else
 			return (m);
 	}
