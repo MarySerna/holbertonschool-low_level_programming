@@ -5,7 +5,7 @@
 *@size: number of elements in array
 *@value: the value to search for
 *
-*return: -1
+*Return: -1 if value is not present in array or if array is NULL
 */
 int linear_search(int *array, size_t size, int value)
 {
@@ -24,3 +24,4 @@ int linear_search(int *array, size_t size, int value)
 	}
 	return (-1);
 }
+
